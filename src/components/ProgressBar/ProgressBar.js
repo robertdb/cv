@@ -24,7 +24,7 @@ class ProgressBar extends Component {
             return;
         }
         this.setState({ percent });
-        this.tm = setTimeout(this.increase, 10);
+        this.tm = setTimeout(this.increase, 50);
     }
 
     componentWillReceiveProps({ active }) {
