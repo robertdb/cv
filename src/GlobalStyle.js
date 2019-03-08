@@ -10,8 +10,7 @@ export default createGlobalStyle`
         `}
     }
     body {
-        @import url('https://fonts.googleapis.com/css?family=Lato');
-        font-family: 'Lato', sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         box-sizing: border-box;
         font-size: 1.6rem;
         font-weight: 400;
