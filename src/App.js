@@ -25,17 +25,17 @@ class App extends Component {
             title={'Intro'}
             bg={'#fbfbfb'}
           />
-          <Skills
-            title={'Personal'}
-            bg={'#f8f8f8'}
-          />
-          <Skills
-            title={'Skill'}
-            bg={'#fbfbfb'}
-          />
           <TimeLine
             bg={'#f8f8f8'}
             title={'Education'}
+          />
+          <Skills
+            title={'Personal'}
+            bg={'#fbfbfb'}
+          />
+          <Skills
+            title={'Skill'}
+            bg={'#f8f8f8'}
           />
           <Portfolio
             title={'Portfolio'}
