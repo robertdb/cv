@@ -23,7 +23,7 @@ class Intro extends Component {
                             { key: 'Email', value: 'robertdibejar@gmail.com' },
                             { key: 'Celular', value: '(011) 1161781402' },
                             { key: 'Dni', value: '19047655' },
-                            { key: 'Cuil', value: '20-19047655-4' },
+                            { key: 'Localidad', value: 'Capital Federal' },
                             { key: 'Fecha de nacimiento', value: '10/02/1990' },
                         ]}
                     />
