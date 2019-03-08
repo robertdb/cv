@@ -45,7 +45,7 @@ export const Image = styled.img`
 export const WrapperProgressBar = styled.div`
     display: flex;
     flex-flow: row wrap;
-    padding: 40px 10px;
+    padding: 40px 20px;
     flex:1
 `;
 
