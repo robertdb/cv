@@ -2,8 +2,8 @@ import profile from './assets/cv-mock.jpg';
 
 export const data = {
     profile: {
-        name: 'Jon',
-        surname: 'Snow',
+        name: 'Braian',
+        surname: 'Vicente',
         imageProfile: profile,
         career: 'Developer'
     },
