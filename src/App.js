@@ -69,6 +69,7 @@ class App extends Component {
           <DualComponent
             title={'Contact'}
             bg={'#f8f8f8'}
+            extraStyle={{ alignItems: 'center' }}
           >
             <ContactContainer
               contact={data.contact}

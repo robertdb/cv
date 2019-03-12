@@ -14,11 +14,11 @@ class DualComponent extends Component {
         active: false
     }
     render() {
-        const { title, bg, children } = this.props;
+        const { title, bg, children, extraStyle } = this.props;
         return (
             <Container>
 
-                <WrapperOne bg={bg}>
+                <WrapperOne bg={bg} style={extraStyle}>
                     <Title>{title}</Title>
                 </WrapperOne>
                 <WrapperTwo>
