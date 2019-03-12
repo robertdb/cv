@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import media from '../../media';
 export const Container = styled.div`
     width: 45%;
     padding: 5px;
@@ -25,5 +25,8 @@ export const Title = styled.span`
     font-weight: bold;
     display: inline-block;
     margin-left: 12px;
+    ${media.md`
+    font-size: 1.1rem;
+`} 
 `;
 
