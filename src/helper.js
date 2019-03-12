@@ -24,12 +24,12 @@ export const data = {
         { percentage: 40, title: 'Python' },
     ],
     Personal: [
-        { percentage: 70, title: 'Time Management' },
+        { percentage: 70, title: 'Management' },
         { percentage: 50, title: 'Self-motivation' },
         { percentage: 80, title: 'Adaptability' },
         { percentage: 50, title: 'Leadership' },
-        { percentage: 60, title: 'Conflict Resolution' },
-        { percentage: 90, title: 'Ability to Work Under Pressure' },
+        { percentage: 60, title: 'Resolution' },
+        { percentage: 90, title: 'Under Pressure' },
     ]
 
 }
