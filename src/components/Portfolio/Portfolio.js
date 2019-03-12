@@ -98,7 +98,7 @@ class Portfolio extends Component {
                             <Block>
                                 <OnScrollAnimation>
                                     <Line />
-                                    <TitleProject>React</TitleProject>
+                                    <TitleProject>Cordova</TitleProject>
                                     <Description>
                                         {`Proyecto compilado con Cordova con código escrito en React.js. La app consta de la versión de Android y IOS. Como librerías más destacadas se puede hacer una mensión en Redux, Sass, Plugin de Cordova para levantar un Mapa Nativo.`}
                                     </Description>

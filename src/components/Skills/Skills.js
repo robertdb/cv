@@ -14,29 +14,24 @@ class Skills extends Component {
         active: false
     }
     render() {
-        const { title, bg } = this.props;
+        const { data } = this.props;
         return (
-            <Container>
-
-                <WrapperOne bg={bg}>
-                    <Title>{title}</Title>
-                </WrapperOne>
-                <WrapperTwo>
-                    <OnScrollAnimation onEnterExec={() => this.setState({ active: true })} notAnimated>
-                        <WrapperProgressBar>
-
-                            <ProgressBar percentage={70} title={'Git'} active={this.state.active} />
-                            <ProgressBar percentage={50} title={'Javascript'} active={this.state.active} />
-                            <ProgressBar percentage={40} title={'React'} active={this.state.active} />
-                            <ProgressBar percentage={40} title={'React Native'} active={this.state.active} />
-                            <ProgressBar percentage={40} title={'Java'} active={this.state.active} />
-                            <ProgressBar percentage={40} title={'Python'} active={this.state.active} />
-
-                        </WrapperProgressBar>
-                    </OnScrollAnimation>
-                </WrapperTwo>
-
-            </Container>
+            <OnScrollAnimation onEnterExec={() => this.setState({ active: true })} notAnimated>
+                <WrapperProgressBar>
+                    {data.map((item, index) => {
+                        const { title, percentage } = item;
+                        return (
+                            <ProgressBar
+                                key={index}
+                                percentage={percentage}
+                                title={title}
+                                active={this.state.active}
+                            />
+                        );
+                    })
+                    }
+                </WrapperProgressBar>
+            </OnScrollAnimation>
         );
     }
 }

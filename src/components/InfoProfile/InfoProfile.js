@@ -8,13 +8,13 @@ import {
     Line
 } from './style';
 import OnScrollAnimation from '../OnScrollAnimation';
-const InfoProfile = ({ name, surname, data }) => {
+const InfoProfile = ({ name, surname, data, career }) => {
     return (
         <Container>
             <OnScrollAnimation>
                 <Name>{name}</Name>
                 <Surname>{surname}</Surname>
-                <Profession>{`Estudiante avanzado en Análisis de Sistemas`}</Profession>
+                <Profession>{career}</Profession>
                 <Line />
                 <Contact data={data} />
             </OnScrollAnimation>

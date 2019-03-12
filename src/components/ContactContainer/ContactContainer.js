@@ -11,24 +11,13 @@ import Contact from '../Contact';
 
 class ContactContainer extends Component {
     render() {
-        const { title, bg } = this.props;
+        const { contact } = this.props;
         return (
-            <Container>
-                <WrapperOne bg={bg}>
-                    <Title>{title}</Title>
-                </WrapperOne>
-                <WrapperTwo>
-                    <Wrapper>
-                        <Contact data={[
-                            { key: 'Email', value: 'robertdibejar@gmail.com' },
-                            { key: 'Celular', value: '(011) 1161781402' },
-                            { key: 'Dni', value: '19047655' },
-                            { key: 'Localidad', value: 'Capital Federal' },
-                            { key: 'Fecha de nacimiento', value: '10/02/1990' },
-                        ]} />
-                    </Wrapper>
-                </WrapperTwo>
-            </Container>
+
+            <Wrapper>
+                <Contact data={contact} />
+            </Wrapper>
+
         );
     }
 }

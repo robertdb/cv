@@ -9,7 +9,7 @@ import InfoProfile from '../InfoProfile';
 
 class Intro extends Component {
     render() {
-        const { image, name, surname } = this.props;
+        const { image, name, surname, contact, career } = this.props;
         return (
             <Container>
                 <WrapperOne>
@@ -19,13 +19,8 @@ class Intro extends Component {
                     <InfoProfile
                         name={name}
                         surname={surname}
-                        data={[
-                            { key: 'Email', value: 'robertdibejar@gmail.com' },
-                            { key: 'Celular', value: '(011) 1161781402' },
-                            { key: 'Dni', value: '19047655' },
-                            { key: 'Localidad', value: 'Capital Federal' },
-                            { key: 'Fecha de nacimiento', value: '10/02/1990' },
-                        ]}
+                        data={contact}
+                        career={career}
                     />
                 </WrapperTwo>
             </Container>

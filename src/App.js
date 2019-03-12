@@ -7,44 +7,73 @@ import TimeLine from './components/TimeLine';
 import Portfolio from './components/Portfolio';
 import Self from './components/Self';
 import ContactContainer from './components/ContactContainer';
-// INTRO
-import profile from './assets/cv.png';
 
+
+import DualComponent from './components/DualComponent';
+import { data } from './helper';
 class App extends Component {
   render() {
+    const {
+      name,
+      surname,
+      imageProfile,
+      career
+    } = data.profile
     return (
       <div>
         <GlobalStyle />
         <Container>
           <Intro
-            image={profile}
-            name={`Robert`}
-            surname={`Diaz Bejar`}
+            image={imageProfile}
+            name={name}
+            surname={surname}
+            contact={data.contact}
+            career={career}
           />
-          <Self
+
+          <DualComponent
             title={'Intro'}
-            bg={'#fbfbfb'}
-          />
-          <TimeLine
             bg={'#f8f8f8'}
+          >
+            <Self
+              description={data.intro.description}
+            />
+          </DualComponent>
+          <DualComponent
             title={'Education'}
-          />
-          <Skills
+            bg={'#f8f8f8'}
+          >
+            <TimeLine />
+          </DualComponent>
+          <DualComponent
             title={'Personal'}
-            bg={'#fbfbfb'}
-          />
-          <Skills
+            bg={'#f8f8f8'}
+          >
+            <Skills
+              data={data.Skills}
+            />
+          </DualComponent>
+          <DualComponent
             title={'Skill'}
             bg={'#f8f8f8'}
-          />
+          >
+            <Skills
+              data={data.Personal}
+            />
+          </DualComponent>
           <Portfolio
             title={'Portfolio'}
             bg={'#fbfbfb'}
           />
-          <ContactContainer
+
+          <DualComponent
             title={'Contact'}
             bg={'#f8f8f8'}
-          />
+          >
+            <ContactContainer
+              contact={data.contact}
+            />
+          </DualComponent>
 
         </Container>
       </div>
