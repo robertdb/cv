@@ -17,43 +17,23 @@ class TimeLine extends Component {
                 <Timeline lineColor={'#ddd'}>
                     <TimelineItem
                         key="001"
-                        dateText="11/2010 – Present"
+                        dateText=" 08/2018 – 01/2019 "
                         style={{ color: '#F8BB10' }}
                         dateInnerStyle={{ background: '#F8BB10', color: '#000' }}
                     >
-                        <h3>Title, Company</h3>
-                        <h4>Subtitle</h4>
+                        <h3>PROSEGUR</h3>
                         <p>
-                            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                            exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                            nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                            reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                            est.
-                                    </p>
-                        <p>
-                            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                            exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                            nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                            reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                            est.
-                                </p>
-                        <p>
-                            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                            exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                            nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                            reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                            est.
-                                </p>
+                            Operador de monitoreo: Monitoreo 24hs. Permite el acceso únicamente a personas autorizadas. Alertas en caso de situaciones inusuales.
+                        </p>
                     </TimelineItem>
                     <TimelineItem
                         key="002"
-                        dateText="04/2009 – 11/2010"
+                        dateText="04/2018 – 11/2010"
                         style={{ color: '#F8BB10' }}
                         dateInnerStyle={{ background: '#F8BB10', color: '#000' }}
 
                     >
-                        <h3 style={{ color: '#61b8ff' }}>Title, Company</h3>
-                        <h4 style={{ color: '#61b8ff' }}>Subtitle</h4>
+                        <h3 style={{ color: '#61b8ff' }}>HAVANNA</h3>
                         <p>
                             Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
                             exercitation. Veniam velit adipisicing anim excepteur nostrud magna

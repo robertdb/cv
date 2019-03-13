@@ -2,18 +2,18 @@ import profile from './assets/cv-mock.jpg';
 
 export const data = {
     profile: {
-        name: 'Jon',
-        surname: 'Snow',
+        name: 'Francisco Jonas',
+        surname: 'GONZALEZ',
         imageProfile: profile,
-        career: 'Developer'
+        career: ''
     },
-    contact: [{ key: 'Email', value: 'jonsnow@gmail.com' },
-    { key: 'Celular', value: '(011) 1161781402' },
-    { key: 'Dni', value: '37345934' },
+    contact: [{ key: 'Email', value: 'gonzalez.franciscojonas@gmail.com' },
+    { key: 'Celular', value: '011-5-385-7270 ' },
+    { key: 'Estado Civil', value: 'Soltero' },
     { key: 'Localidad', value: 'Capital Federal' },
-    { key: 'Fecha de nacimiento', value: '10/02/1990' }],
+    { key: 'Fecha de nacimiento', value: ' 8/02/1990 ' }],
     intro: {
-        description: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).`
+        description: `Me considero una persona emprendedora, responsable, predispuesta y con capacidad de resolución. Me motivan los nuevos desafíos, aprender y relacionarme con otras personas. Interesado en ampliar mi experiencia y conocimientos laborales para seguir desarrollándome profesional y personalmente, y ser parte de un proyecto del cual sentirme orgulloso`
     },
     Skills: [
         { percentage: 70, title: 'Git' },

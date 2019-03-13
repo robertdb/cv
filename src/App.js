@@ -40,7 +40,7 @@ class App extends Component {
             />
           </DualComponent>
           <DualComponent
-            title={'Education'}
+            title={'Experiencia'}
             bg={'#f8f8f8'}
           >
             <TimeLine />

@@ -46,7 +46,7 @@ export const WrapperProgressBar = styled.div`
 
 export const Description = styled.p`
     font-weight: 300;
-    max-width: 900px;
+    max-width: 800px;
     padding: 40px 20px;
     font-size: 1.7rem;
     color: #727272;
